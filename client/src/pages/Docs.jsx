@@ -7,6 +7,7 @@ import { SiExpress } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FiExternalLink } from "react-icons/fi";
 import { MdCloudQueue } from "react-icons/md";
+import { FaDigitalOcean } from "react-icons/fa6";
 
 export default function Docs() {
   return (
@@ -26,7 +27,7 @@ export default function Docs() {
           <li>Backend:</li>
           <ol className='ps-5 mt-2 space-y-1 list-inside capitalize font-normal'>
             <li className='flex gap-2 items-center '><SiExpress size={32} color='#88d131' className='bg-black p-2 rounded-md' /> express</li>
-            <li className='flex gap-2 items-center '><IoLogoFirebase size={32} color='#ffaa1a' className='bg-black p-2 rounded-md' /> firebase</li>
+            <li className='flex gap-2 items-center '><FaDigitalOcean size={32} color='#0080fe' className='bg-black p-2 rounded-md' /> digital ocean</li>
           </ol>
           <li>Tools:</li>
           <ol className='ps-5 mt-2 space-y-1 list-inside capitalize font-normal'>
