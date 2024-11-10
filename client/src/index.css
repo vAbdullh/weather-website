@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #dc8e34;
+}
+
+* {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  scrollbar-color: black transparent;
+  word-spacing: 3px;
+}
+
+body,
+html, .bg-primary {
+  @apply bg-[var(--main-color)];
+}
+
+.text-primary {
+  @apply text-[var(--main-color)];
+}
+
+.word-spacing {
+  word-spacing: 5px;
+}
