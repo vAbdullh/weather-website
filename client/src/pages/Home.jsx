@@ -125,10 +125,10 @@ export default function Home() {
         <div className="w-full bg-black flex max-w-96 gap-2 justify-center rounded-lg  p-3 text-black">
           <div className="bg-primary rounded-mg flex flex-col items-center justify-center flex-1 py-5 rounded-l-md ">
             <PiWindLight className='size-9' />
-            {`${data?.current.wind.speed || '00'} metres `}</div>
+            {`${data?.current?.wind.speed || '00'} metres `}</div>
           <div className="bg-primary rounded-mg flex flex-col items-center justify-center flex-1 py-5 rounded-r-md">
             <FaCloudRain className='size-9' />
-            {`${data?.current.precipitation.total || '00'} %`}
+            {`${data?.current?.precipitation.total || '00'} %`}
           </div>
         </div>
         <div className="flex gap-3 w-full overflow-x-scroll py-3">
