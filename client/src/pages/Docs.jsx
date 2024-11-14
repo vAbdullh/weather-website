@@ -31,8 +31,7 @@ export default function Docs() {
           </ol>
           <li>Tools:</li>
           <ol className='ps-5 mt-2 space-y-1 list-inside capitalize font-normal'>
-            <li className='flex gap-2 items-center '><MdCloudQueue size={32} color='#f76b1c' className='bg-black p-2 rounded-md' />
-              <a href="https://www.meteosource.com/" className='flex items-center gap-1 border-b border-black'>meteosource <FiExternalLink size={16} /></a>
+            <li className='flex gap-2 items-center '><MdCloudQueue size={32} color='#f76b1c' className='bg-black p-2 rounded-md' />API : <a href="https://www.meteosource.com/" className='flex items-center gap-1 border-b border-black'>meteosource <FiExternalLink size={16} /></a>
             </li>
             <li className='flex gap-2 items-center '><FaDribbble size={32} color='#fda9e5' className='bg-black p-2 rounded-md' /> design :  <a href="https://dribbble.com/shots/20675054-Mobile-Weather-app" className='flex items-center gap-1 border-b border-black'>Desire Creative Agency <FiExternalLink size={16} /></a></li>
           </ol>

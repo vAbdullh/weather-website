@@ -44,7 +44,7 @@ export default function Header({ home }) {
                 <>
                     <span
                         onClick={() => setMenu(false)}
-                        className="h-screen w-screen bg-white/15 absolute left-0 top-10 "></span>
+                        className="h-screen w-screen bg-white/15 absolute left-0 top-0 backdrop-blur-sm"></span>
                     <nav className={`bg-black flex flex-col gap-3 w-full absolute top-10 left-0 p-2 z-10 text-white text-lg lg:left-auto lg:max-w-96 `}>
                         <button
                             disabled={active === '/'}
@@ -62,7 +62,7 @@ export default function Header({ home }) {
                             <HiOutlineDocumentText size={16} />
                             Documentation
                         </button>
-                    <a onClick={() => setMenu(false)} href='https://www.google.com' target='_blank' rel="noreferrer" className='p-2 flex gap-2 items-center'>
+                    <a onClick={() => setMenu(false)} href='https://github.com/vAbdullh/weather-website' target='_blank' rel="noreferrer" className='p-2 flex gap-2 items-center'>
                             <FaGithubAlt size={16} />
                             Repository
                         </a>
