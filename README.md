@@ -16,7 +16,7 @@ This weather project fetches weather data using the [Meteosource API](https://ww
       ```bash
       npm install
       ```
-    - update the `REACT_APP_BACKEND_URL` in the `example.env` then:
+    - update the `REACT_APP_BACKEND_URL` in the `example.env` then;
       ```bash
       cp example.env .env
       ```
@@ -26,9 +26,13 @@ This weather project fetches weather data using the [Meteosource API](https://ww
       ```
 
 2. **Backend Setup:**
-    - Navigate the root folder if you on client folder:
+    - Navigate to server folder, if you on client folder:
       ```bash
-      cd ..
+      cd ../server/
+      ```
+    - if you on root:
+      ```bash
+      cd server/
       ```
     - Install the dependencies:
       ```bash
