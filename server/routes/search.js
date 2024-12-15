@@ -16,7 +16,7 @@ router.get('/:target', async (req, res, next) => {
     const weather = response.data;
     res.json(weather);
   } catch (error) {
-    console.error(error.message);
+    console.error('Error fetching data:', error);
     res.status(500).json({ message: 'Error fetching weather data' });
   }
 });
